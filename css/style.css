@@ -2,6 +2,17 @@ body {
     font-family: 'Karla', sans-serif;
     font-family: 'Special Elite', cursive;
     font-weight: bold; 
+    background: url('../images/astronaut-art.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.container-fluid {
+    min-height: 100vh;
+    overflow: hidden;
+    padding: 0;
 }
 
 h1, h3 {
@@ -15,22 +26,11 @@ h1 {
     text-align: center;
 }
 
-.col {
-    height: 100vh;
-    background: url('../images/astronaut-art.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
-
 nav {
-    height: 70px;
-    width: 100vw;
     background-color: rgba(28, 30, 45, .7);
-    position: absolute;
-    top: 0;
+    width: 100vw;
 }
+   
 
 #wrapper {
     background-color: rgba(29, 36, 67, 0.7);
@@ -88,12 +88,10 @@ hr {
 }
 
 footer {
-    height: 70px;
-    width: 100vw;
     background-color:rgba(28, 30, 45, .7);
-    position: absolute;
-    bottom: 0;
-    /* flex-direction: column; */
+    height: 70px;
+    margin-top: 10px;
+    width: 100%;
 }
 
 img {
